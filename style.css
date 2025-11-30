@@ -31,6 +31,11 @@ a {
     text-decoration: none;
     margin-right: 15px;
     font-weight: bold;
+    
+    <h1>🏠 トップ</h1>
+<h2>👤 自己紹介</h2>
+<h2>✉️ お問い合わせ</h2>
+
 }
 
 a:hover {
@@ -67,5 +72,6 @@ button {
 button:hover {
     background-color: #ff85c1; /* ホバー時少し薄めピンク */
 }
+
 
 
