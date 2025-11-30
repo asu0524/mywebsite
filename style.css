@@ -1,45 +1,62 @@
+/* 全体 */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff; /* 背景白 */
     padding: 20px;
+    color: #333333; /* 文字は薄い黒 */
 }
 
-h1 {
-    color: #3333cc;
+/* 見出し（トップ・自己紹介・お問い合わせなど） */
+h1, h2 {
+    color: #ff69b4; /* ピンク */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* アイコンと文字の間 */
+    font-weight: bold;
 }
 
+/* h1用の絵文字例（HTML側に直接） */
+/* <h1>🏠 トップ</h1> */
+
+/* パラグラフ */
 p {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555555; /* 薄い黒 */
 }
 
+/* ナビゲーションリンク */
 a {
-    color: #cc3333;
+    color: #ff69b4; /* ピンク */
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 15px;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
 }
-/* ここから追加 */
+
+/* フォーム */
 form {
-    background-color: #ffffff;
-    padding: 15px;
-    border-radius: 8px;
+    background-color: #ffe6f0; /* 薄いピンク背景 */
+    padding: 20px;
+    border-radius: 10px;
     max-width: 500px;
+    margin-top: 20px;
 }
 
 input, textarea {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-top: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ffb6c1; /* ピンク系の枠 */
+    border-radius: 5px;
 }
 
 button {
-    background-color: #3333cc;
+    background-color: #ff69b4; /* 濃いピンク */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -48,6 +65,7 @@ button {
 }
 
 button:hover {
-    background-color: #5555ee;
+    background-color: #ff85c1; /* ホバー時少し薄めピンク */
 }
-/* ここまで */
+
+
