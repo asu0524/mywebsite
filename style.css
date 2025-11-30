@@ -70,8 +70,48 @@ button {
 }
 
 button:hover {
-    background-color: #ff85c1; /* ホバー時少し薄めピンク */
+    background-color: #ff85c1; /* ホバー時少し薄めピンク *//* フォーム全体 */
+form {
+    background-color: #ffe6f0; /* 薄いピンク */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;  /* 最大幅を設定 */
+    width: 100%;       /* 画面幅に合わせる */
+    box-sizing: border-box; /* パディング込みで幅を調整 */
+    margin: 20px auto; /* 上下に余白、中央寄せ */
 }
+
+/* 入力欄・テキストエリア */
+input, textarea {
+    width: 100%;        /* 画面幅に合わせる */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ffb6c1; /* ピンク系枠線 */
+    border-radius: 5px;
+    box-sizing: border-box; /* パディング込みで幅を調整 */
+}
+
+/* 送信ボタン */
+button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;    /* ブロック表示にして幅調整可能 */
+    width: 100%;       /* ボタンも画面幅に合わせる */
+    max-width: 200px;  /* 最大幅を設定 */
+    margin: 0 auto;    /* 中央寄せ */
+}
+
+button:hover {
+    background-color: #ff85c1;
+}
+
+}
+
 
 
 
