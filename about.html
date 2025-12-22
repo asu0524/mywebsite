@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <title>自己紹介ページ</title>
 </head>
 
 <body>
@@ -13,15 +14,23 @@
             <a href="contact.html">✉️ お問い合わせ</a>
         </nav>
     </header>
-<section>ポケモン紹介    <h2>h2ｓ私の一番好きなポケモンは…    <button id="loadPokemon">buttonn
-    <div id="pokemon"></div>
-</section>
+
+    <!-- ポケモン図鑑セクション -->
+    <section>
+        <h2>ポケモン図鑑</h2>
+        <input type="text" id="pokemonName" placeholder="例: pikachu">
+        <button id="searchPokemon">検索</button>
+        <div id="pokemon"></div>
+        <p id="errorMsg" style="color:red;"></p>
+    </section>
 
     <main>
-        <section>自己紹介            <h2>h22>           <p>ポケモンが大好きです♪。</p>
-        　 </p>このサイトでは、学生向けに友達が欲しいが顔にコンプレックスがありうまく関われずにいる方に向けた支援を行っています！</p>
-       　　 <p>管理者は顎変形症の改善のために2023年6月~2025年10月まで歯列矯正した後、2025年10月21日に両顎手術を受けました。</p>
-       
+        <!-- 自己紹介セクション -->
+        <section>
+            <h2>自己紹介</h2>
+            <p>ポケモンが大好きです♪。</p>
+            <p>このサイトでは、学生向けに友達が欲しいが顔にコンプレックスがありうまく関われずにいる方に向けた支援を行っています！</p>
+            <p>管理者は顎変形症の改善のために2023年6月~2025年10月まで歯列矯正した後、2025年10月21日に両顎手術を受けました。</p>
             <ul>
                 <li>旅行が好きです！(ママチャリで東京~青森まで行ったことがあります笑)</li>
                 <li>人とお酒を片手におしゃべりすること、好きな配信を見ることが日々の楽しみです</li>
@@ -29,6 +38,7 @@
             </ul>
         </section>
 
+        <!-- 最新情報セクション -->
         <section>
             <h2>最新情報</h2>
             <p>今後ツーリング企画を計画予定です😊</p>
@@ -37,20 +47,9 @@
 
     <footer>
         <p>&copy; 2025 ぽよ</p>
-
-
     </footer>
+
+    <!-- JavaScript 読み込み -->
     <script src="script.js"></script>
-
-よ</p>
-
-
-    </f
-
-
-
-
-
-
-
-
+</body>
+</html>
